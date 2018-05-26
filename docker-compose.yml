@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  web:
+    env_file: .env
+    image: datacite/rottweiler
+    ports:
+      - "8035:80"
